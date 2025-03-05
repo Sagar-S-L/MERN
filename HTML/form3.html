@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>        
+    <form action="">
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+
+        <label for="emailid">Email ID:</label>
+        <input type="email" name="email" id="emailid">
+        <br>
+        <br>
+
+        <label for="phoneno">Phone No:</label>
+        <input type="tel" name="phoneno" id="phoneno">
+        <br>
+        <br>
+
+        <label for="resume">Resume:</label>
+         <input type="file" name="fileupload" id="resume">
+         <br>
+         <br>
+
+         <label for="counter">Experience (in years):</label>
+         <input type="number" name="" id="counter" min="0" max="50"> 
+
+         <fieldset>
+            <legend>Skills</legend>
+
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="css id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="JS" id="javaScript">
+            <label for="javaScript">JavaScript</label>
+         </fieldset>
+         
+         <br>
+         <label for="education">Highest Education:</label>
+         <br>
+         <br>
+         <select name="education" id="education">
+         <option value="Choose" selected>Choose any One </option>
+         <option value="MCA">MCA</option>
+         <option value="BCA">BCA</option>
+         <option value="PUC">PUC</option>
+         <option value="SSLC">SSLC</option>
+        </select>
+        <br>
+        <label for="radio">Availability:</label>
+        <br>
+        <br>
+        <input type="radio" name="time" id="fulltime">
+        <label for="fulltime">Full-TIme</label>
+        <br>
+        <br>
+        <input type="radio" name="time" id="parttime">
+        <label for="parttime">Part-TIme</label>
+        <br>
+        <label for="comments">Additional Comments:</label>
+        <br>
+        <textarea name="" id="comments" rows="8" cols="30"></textarea>
+        
+        <input type="submit" name="submit" id="submit" value="Submit Application">
+    </form>
+</body>
+</html>
