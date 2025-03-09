@@ -1,0 +1,26 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    
+}
+
+.box:hover{
+    transform: rotate(360deg);
+    background-color: red;
+    border-radius:50%;
+}
