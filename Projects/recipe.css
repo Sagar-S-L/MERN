@@ -5,19 +5,19 @@
 }
 
 .container{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 2%, rgba(182,209,208,0.9571106094808126) 47%);
 }
 .navcontainer{
     width: 100%;
-    height: 6vh;
+    height: 6%;
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
     display: flex;
     align-items: center;
+    
 }
 nav{
     width: 100%;
@@ -45,24 +45,28 @@ a{
     gap: 20px;
 }
 .footerbox{
-    text-align: center;
-    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
     color:azure;
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 .contentbox{
-    height: 86vh;
-    width: 50vw;
+    height: 86%;
+    width: 50%;
     background-color: azure;
-    position: relative;
-    left: 25vw;
     display: flex;
     flex-direction: column;
-    gap: 80px;
-    margin: 2vh;
-    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 2px 2px 30px black;
@@ -79,7 +83,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 #ingitem{
